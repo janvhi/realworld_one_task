@@ -4,8 +4,8 @@
 This API provide the following functionality:
 
 This repository contains two controller
-1. CatController: It displayed rotated cat coming from cataas.com with additional manipulation provided in querystring.
- 2. AuthenticateController: It deal with Registering and login functionality using JWT Token.
+1. CatController: It displays rotated cat coming from cataas.com with additional manipulation provided in querystring.
+ 2. AuthenticateController: It deal with registeration and login functionality using JWT Token and basic authentication.
 
 It also performs API documentation, Unit testing and E2E testing for the API implemented
 
@@ -59,5 +59,9 @@ For this project I have used below softwares/libraries
 ```
 
 you will receive JWT Token on login, which can be used to authenticate 
-get cat and get registered user api
+get cat and get registered user api.
+
+Another way to do authentication is using basic authenticate 
+username = admin ,
+password = password
 
